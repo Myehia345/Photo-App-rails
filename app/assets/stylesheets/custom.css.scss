@@ -59,5 +59,34 @@
 
 .btn-primary:visited, .btn-danger:visited {
     color: #fff;
-    
+}
+
+.jumbotron {
+  text-align: center;
+  background-image: asset-url('sand-01.jpg');
+  background-size: cover;
+  color: #fff;
+  font-family: 'Helvetica Neue' !important;
+  font-stretch: expanded;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
+}
+
+.features {
+    ul {
+        margin-left: 0;
+        padding-left: 15px;
+    }
+}
+
+.no-left-padding {
+  padding-left: 0 !important;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
 }
